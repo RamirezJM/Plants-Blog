@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="bg-sky-900 text white flex flex-col m-4 p-4 rounded items-center">
+    <section>
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-1/10 mx-auto py-2" viewBox="0 0 164.56 162.44" xmlns:v="https://vecta.io/nano" fill="white">
+        <path
+          d="M88.94 119.91v42.53H75.4V92.17c-26.58.24-47.78-9.8-62.83-31.49C.01 42.59-.81 21.91.41.47 20.12-.94 39.07.28 56.17 11.7c16.82 11.23 26.68 27.1 31.55 47.46 10.5-14.19 22.98-24.84 39.54-28.46 11.82-2.59 24.14-2.93 36.15-4.26 6.86 44.12-17.09 92.51-74.47 93.48zM14.33 14.31C12.4 48.23 36.69 81.49 75.09 77.17c1.17-36.65-25.68-64.07-60.76-62.86zm75.07 90.8c37.04.92 61.67-25.55 60.93-63.1-32.53-4.75-62.82 26.43-60.93 63.1z" />
+      </svg>
+    </section>
+    <nav class="text-white">
+      <a href="#" class="mx-2">Blog</a>
+      <a href="#" class="mx-2">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2 class="text-3xl font-bold text-center my-6">Blog</h2>
+    <!-- CARD CONTAINER -->
+    <section class="w-11/12 mx-auto mb-10">
+
+      <!-- CARD -->
+      <section class="w-80 mx-auto bg-gray-150">
+        <img src="img/post_houseplants.jpg" alt="Houseplants with Attitudes" class="w-full rounded-t-xl">
+
+        <!-- CARD CONTENT -->
+        <section class="bg-gray-200 p-4 rounded-b-xl">
+
+          <!-- CARD HEADER -->
+          <section>
+            <section class="flex justify-between items-center">
+              <section class="flex gap-2">
+                <img src="img/author_fern.jpg" alt="Fern Greenleaf" class="w-2/10 rounded-3xl">
+                <span class="my-2 text-sky-700">Fern Greenleaf</span>
+              </section>
+              <svg height="20px" viewBox="0 -960 960 960" width="20px">
+                <path
+                  d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z" />
+              </svg>
+              <!-- <span class="font-medium">More options</span> -->
+            </section>
+          </section>
+          <!-- CARD HEADER END -->
+
+          <!-- CARD BODY -->
+          <section class="mb-4">
+            <h2 class="text-sky-700 text-xl font-semibold my-2">Houseplants with Attitude: Meet the Divas of Your Living Room</h2>
+            <p>
+              If you thought your Monstera was just sitting quietly in the corner, think again! These houseplants are
+              full of sass, drama, and demands. From diva-like Calatheas that throw a tantrum if you mist them wrong to
+              ferns that seem to love dying for attention, we’re here to introduce you to the plant kingdom’s most
+              dramatic members.
+            </p>
+          </section>
+          <!-- CARD BODY END -->
+
+          <hr>
+
+          <!-- CARD FOOTER -->
+          <section class="mt-4 flex justify-between">
+            <span>9 likes</span>
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px">
+              <path
+                d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z" />
+            </svg>
+            <!-- <span>Like</span> -->
+          </section>
+          <!-- CARD FOOTER END -->
+
+        </section>
+        <!-- CARD CONTENT END -->
+
+      </section>
+      <!-- CARD END -->
+
+
+    </section>
+    <!--CARD CONTAINER END-->
+
+  </main>
+  <footer class="bg-sky-900 text-white p-4">
+    <!-- FOOTER CONTENT -->
+    <section class="flex flex-col items-center gap-4">
+      <h3 class="uppercase font-semibold">Subscribe</h3>
+      <p>Want to get notified when a new blog post is up? Sign up for the newsletter and never miss out!</p>
+      <form class="flex w-full">
+        <input type="email" placeholder="email@example.com" class="bg-white text-gray-900 ps-4 py-1 flex-grow">
+        <input type="submit" value="Sign Up" class="bg-slate-400 px-3 py-1 text-black">
+      </form>
+      <span>&copy; Fluffy McDuck</span>
+    </section>
+  </footer>
+  <!-- FOOTER CONTENT END -->
+
+</body>
+
+</html>
